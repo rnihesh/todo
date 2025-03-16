@@ -15,8 +15,8 @@ function Header() {
   async function handleSignout() {
     await signOut();
     localStorage.removeItem("currentuser");
-    localStorage.clear();
     setCurrentUser(null);
+    localStorage.clear();
     navigate("/");
   }
 

@@ -51,7 +51,7 @@ function Footer() {
 
         <div className="footer-bottom">
           <small>
-            &copy; {new Date().getFullYear()} Logly. All rights reserved.
+            &copy; {new Date().getFullYear()} TODO. All rights reserved.
           </small>
         </div>
       </div>
